@@ -51,9 +51,16 @@ function createBalloons() {
     // Remove light after some time
     
   }
-  setTimeout(()=>{
-    document.body.innerHTML="Kaat Liya Nikalo Ab"
-  },10000);
+ setTimeout(()=>{
+    document.body.innerHTML=`
+    <div style="display: contents;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;">
+      Kaat Liya Cake ..?? Acha Suno ab I Really love you soo much 💕 I wish ki ye birthday tumhara Sabse acha jaye 
+      bhale hi hum pass nhi hai lekin phir bhi lagta hai sabse pass tum hi ho ... mujhe nhi pata kya bolna chahiye bas enjoy your day my little princess ..
+      Gift toh nhi de paya abhi kch lekin mai tumhe apni sari duniya dena chahta hu  aur bas return Gift mei tumhari Mushkhurat chahte hai ..Khush rahiye madam ji apki khushi mei hi humhari khushi hai 
+    </div>`;
+  },15000);
 
 }
 
